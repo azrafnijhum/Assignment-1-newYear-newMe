@@ -50,4 +50,79 @@
     line-height: 23px;
     text-align: center;
     color: #005FAC;
+}
+
+/* Second part having Person Image */
+
+.secondPart{
+    display: flex;
+}
+.secondPart-text {
+    margin-top: 200px;
+}
+ul {
+    list-style: none;
+  }
+  
+ul li:before {
+    content: '✓';
+    content-visibility: green;
+  }
+.personImg {
+    margin-left: 100px;
+
 } 
+
+/* thirdPart */
+
+.thirdHeading {
+    text-align: center;
+}
+.thirdPart {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.web, .js, .smoke, .ecom {
+    margin:50px 50px;
+}
+
+/* Fouth Part */
+
+.gradient {
+    background-image: url(/images/gradient1.png);
+    max-width: 100%; 
+    width: 800px;
+    margin: auto;
+}
+.gradientText {
+    margin-top: auto;
+    color: red;
+}
+img {
+    
+    max-width: 100%;
+  }
+  
+  .gradient::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+    margin-top: -150px;
+    height: 150px;
+    width: 100%;
+    content: '';
+  }
+
+  /* Footer */
+  .footer {
+    background-color: black;
+    color:#fff
+  }
+  .finalPart{
+    display: flex;
+  }
+  .socialMedia {
+    display: flex;
+    margin: 20px 20px 30px 20px;
+  }
