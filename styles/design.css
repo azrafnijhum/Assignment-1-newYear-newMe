@@ -5,7 +5,7 @@
 
 /* Header First Background Image */
 .firstImg {
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(./images/banner/banner3.png);
     background-size: cover;
     width: 1350px;
     height: 800px;
